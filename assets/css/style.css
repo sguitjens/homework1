@@ -1,0 +1,120 @@
+.paddedbox {
+  padding: 20px;
+  font-size: 24px;
+}
+
+#name {
+  background-color: #148f77 ;
+  float: left;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#about {
+  border-bottom: 2px solid #839192;
+  margin: 20px 20px;
+  font-size: 24px;
+  line-height: 3.0;
+  color:  #148f77 ;
+  font-weight: bold;
+}
+
+#navlinks {
+  float:right;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  margin: 24px auto;
+  color: #839192;
+}
+
+header {
+  background: whitesmoke;
+  border-bottom: 2px solid #839192;
+  height: 64px;
+}
+
+#header-content {
+  width: 700px;
+  margin: 0px auto;
+  background-color: whitesmoke;
+}
+
+footer {
+  background: #839192;
+  border-top: 5px solid #148f77;
+  height: 48px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 12px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.mid-body {
+  width: 700px;
+  margin: 0px auto 100px auto;
+  background-color: whitesmoke;
+}
+
+p {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  line-height: 1.8;
+  margin: 0px 0px 20px 0px;
+  color: #839192;
+}
+
+#textmargins {
+  margin: 20px;
+}
+
+body {
+  background-image: url("../images/bananas.png");
+  background-repeat:repeat;
+}
+
+/* added */
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+/* added */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 48px; /* height of your footer */
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  float: left;
+  border: 2px solid #839192;;
+  margin: 7px 20px 20px 20px;
+}
+
+#text-to-bottom {
+  margin: 30px auto auto auto
+}
+
+ /* unvisited link */
+ a:link {
+  color: #839192;
+}
+
+/* visited link */
+a:visited {
+  color:  #212f3c ;
+}
+
+* {
+  box-sizing: border-box;
+ }
+ 
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
