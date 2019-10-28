@@ -108,11 +108,13 @@ img {
  /* unvisited link */
  a:link {
   color: #839192;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color:  #212f3c ;
+  text-decoration: none;
 }
 
 /* forms styling */
