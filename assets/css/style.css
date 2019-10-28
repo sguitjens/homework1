@@ -33,7 +33,7 @@ header {
 }
 
 #header-content {
-  width: 700px;
+  width: 960px;
   margin: 0px auto;
   background-color: whitesmoke;
 }
@@ -51,7 +51,7 @@ footer {
 }
 
 .mid-body {
-  width: 700px;
+  width: 960px;
   margin: 20px auto 100px auto;
   background-color: whitesmoke;
   border: 1px solid #839192;
@@ -93,12 +93,12 @@ body {
   border: 2px solid #839192;
 }
 
-img {
-  max-width: 20%;
+#about-img {
+  max-width: 25%;
   height: auto;
   float: left;
   border: 2px solid #839192;
-  margin: 7px 20px 20px 20px;
+  margin: 27px 20px 20px 20px;
 }
 
 #text-to-bottom {
@@ -117,14 +117,31 @@ a:visited {
   text-decoration: none;
 }
 
+/* mouse over link */
+a:hover {
+  color: #148f77;
+}
+
+/* selected link */
+a:active {
+  font-weight: bold;
+}
+
 /* forms styling */
-input[type=text] {
+input[type=text], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
+  border: 1px solid #839192;
+  color: #212f3c;
+  background-color: whitesmoke;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+#resize-height-only {
+  resize: vertical;
+}
+
+input[type=button], input[type=submit] {
   background-color: #148f77;
   border: none;
   padding: 10px 24px;
@@ -151,3 +168,16 @@ form, input, select {
  *:after {
   box-sizing: border-box;
  }
+
+ /* gallery styles */
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 600px;
+  position: relative;
+}
+
+.gallery-img {
+  max-width: 100%;
+  position: absolute;
+}
