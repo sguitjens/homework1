@@ -4,7 +4,7 @@
 }
 
 #name {
-  background-color: #148f77 ;
+  background-color: #148f77;
   float: left;
   font-weight: bold;
   color: whitesmoke;
@@ -12,7 +12,7 @@
 
 #about {
   border-bottom: 2px solid #839192;
-  margin: 20px 20px;
+  margin: 0px 20px;
   font-size: 24px;
   line-height: 3.0;
   color:  #148f77 ;
@@ -52,8 +52,9 @@ footer {
 
 .mid-body {
   width: 700px;
-  margin: 0px auto 100px auto;
+  margin: 20px auto 100px auto;
   background-color: whitesmoke;
+  border: 1px solid #839192;
 }
 
 p {
@@ -68,7 +69,7 @@ p {
 }
 
 body {
-  background-image: url("../images/bananas.png");
+  background-image: url("../images/lemons.jpg");
   background-repeat:repeat;
 }
 
@@ -88,11 +89,15 @@ body {
   padding-bottom: 48px; /* height of your footer */
 }
 
+.card {
+  border: 2px solid #839192;
+}
+
 img {
   max-width: 20%;
   height: auto;
   float: left;
-  border: 2px solid #839192;;
+  border: 2px solid #839192;
   margin: 7px 20px 20px 20px;
 }
 
@@ -110,6 +115,32 @@ a:visited {
   color:  #212f3c ;
 }
 
+/* forms styling */
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #148f77;
+  border: none;
+  padding: 10px 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+form, input, select {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  color: #839192;
+}
+
+#submit {
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+/* review what these do */
 * {
   box-sizing: border-box;
  }
