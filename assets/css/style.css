@@ -80,6 +80,10 @@ footer {
   width: 100%;
 }
 
+#fp-relative {
+  position: relative;
+}
+
 #text-to-bottom {
   margin: 30px auto auto auto
 }
