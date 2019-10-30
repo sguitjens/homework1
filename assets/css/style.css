@@ -1,3 +1,10 @@
+/*
+text color: #6f7067
+border color: #b6b8ac
+
+*/
+
+
 .paddedbox {
   padding: 20px;
   font-size: 24px;
@@ -11,7 +18,7 @@
 }
 
 #about {
-  border-bottom: 2px solid #839192;
+  border-bottom: 2px solid #b6b8ac;
   margin: 0px 20px;
   font-size: 24px;
   line-height: 3.0;
@@ -23,12 +30,34 @@
   float:right;
   font-family: "Source Sans Pro", "Arial", sans-serif;
   margin: 24px auto;
-  color: #839192;
+  color: #6f7067;
+}
+
+ /* unvisited link */
+ a:link {
+  color: #6f7067;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color:  #43443e ;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #148f77;
+}
+
+/* selected link */
+a:active {
+  font-weight: bold;
 }
 
 header {
   background: whitesmoke;
-  border-bottom: 2px solid #839192;
+  border-bottom: 2px solid #b6b8ac;
   height: 64px;
 }
 
@@ -39,29 +68,34 @@ header {
 }
 
 footer {
-  background: #839192;
+  background: #4d4d49;
   border-top: 5px solid #148f77;
   height: 48px;
   text-align: center;
   color: whitesmoke;
   font-size: 12px;
   bottom: 0;
+  left: 0;
   position: absolute;
   width: 100%;
+}
+
+#text-to-bottom {
+  margin: 30px auto auto auto
 }
 
 .mid-body {
   width: 960px;
   margin: 20px auto 100px auto;
   background-color: whitesmoke;
-  border: 1px solid #839192;
+  border: 1px solid #b6b8ac;
 }
 
 p {
   font-family: "Source Sans Pro", "Arial", sans-serif;
   line-height: 1.8;
   margin: 0px 0px 20px 0px;
-  color: #839192;
+  color: #6f7067;
 }
 
 #textmargins {
@@ -89,42 +123,18 @@ body {
   padding-bottom: 48px; /* height of your footer */
 }
 
+/*
 .card {
   border: 2px solid #839192;
 }
+*/
 
 #about-img {
   max-width: 25%;
   height: auto;
   float: left;
-  border: 2px solid #839192;
+  border: 2px solid #b6b8ac;
   margin: 27px 20px 20px 20px;
-}
-
-#text-to-bottom {
-  margin: 30px auto auto auto
-}
-
- /* unvisited link */
- a:link {
-  color: #839192;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color:  #212f3c ;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #148f77;
-}
-
-/* selected link */
-a:active {
-  font-weight: bold;
 }
 
 /* forms styling */
@@ -132,8 +142,8 @@ input[type=text], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  border: 1px solid #839192;
-  color: #212f3c;
+  border: 1px solid #b6b8ac;
+  color: #212f3c; /* does this need to change? */
   background-color: whitesmoke;
 }
 
@@ -151,7 +161,7 @@ input[type=button], input[type=submit] {
 
 form, input, select {
   font-family: "Source Sans Pro", "Arial", sans-serif;
-  color: #839192;
+  color: #6f7067;
 }
 
 #submit {
@@ -171,13 +181,38 @@ form, input, select {
 
  /* gallery styles */
 .gallery {
-  margin: 5px;
-  float: left;
-  width: 600px;
-  position: relative;
+  margin: 10px;
+  background-color: whitesmoke;
 }
 
 .gallery-img {
-  max-width: 100%;
+  max-width: 300px;
+  position: relative;
+  height: auto;
+  float: left;
+  border: 0px;
+  margin: 10px;
+  /*padding: 20px;*/
+  font-size: 24px;
+}
+
+.img-caption {
+  background-color: #148f77;
+  font-weight: bold;
+  padding: 12px;
+  color: whitesmoke;
   position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  /*float: left;*/
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
