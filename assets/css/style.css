@@ -39,6 +39,10 @@ border color: #b6b8ac
   text-decoration: none;
 }
 
+#nav-separator {
+  color: #bcbdb3;
+}
+
 /* visited link */
 a:visited {
   color:  #43443e ;
