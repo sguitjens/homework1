@@ -1,5 +1,5 @@
 # Profile Page
-## Homework for Web Development Class
+### Homework for Web Development Class
 This is an assignment to write a profile website for my web development class.
 
 ## Credits
